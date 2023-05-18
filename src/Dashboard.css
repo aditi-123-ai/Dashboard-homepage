@@ -1,0 +1,21 @@
+.dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
